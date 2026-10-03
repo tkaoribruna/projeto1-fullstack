@@ -1,5 +1,6 @@
 //App.jsx
 
+import "./App.css";
 import Header from "./components/Header";
 import FormPost from "./components/FormPost";
 import ListaPost from "./components/ListaPost";
