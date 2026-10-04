@@ -49,7 +49,7 @@ function App(){
         <ListaPost posts={posts}/>//Lista de posts só sera renderizada se o formulario estiver fechado
       }
 
-    </>
+    </div>
   );
 }
 
