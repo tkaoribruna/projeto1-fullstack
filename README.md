@@ -100,7 +100,7 @@ npm run preview
 |---|---|
 | Daniel Durante Francisco Dias | Implementação de `src/services/api.js`, `src/services/postsService.js` e elaboração do README |
 | Bruna Kaori Takuti | Implementação de `Header.jsx`, `ListaPost.jsx`, `PostCard.jsx`, `App.css` e `index.css` |
-| Igor Rocha Cantieri | Implementação das demais partes da aplicação e integração dos recursos desenvolvidos pela equipe |
+| Igor Rocha Cantieri | | Igor Rocha Cantieri | Implementação de `src/App.jsx`, `src/components/FormPost.jsx` e `src/main.jsx`, além da integração dos componentes e do fluxo de publicação |
 
 ## Ferramentas de apoio
 
