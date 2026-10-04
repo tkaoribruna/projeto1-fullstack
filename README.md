@@ -94,6 +94,14 @@ Para visualizar a versão de produção localmente:
 npm run preview
 ```
 
+## Responsabilidades dos integrantes
+
+| Integrante | Responsabilidades |
+|---|---|
+| Daniel Durante Francisco Dias | Implementação de `src/services/api.js`, `src/services/postsService.js` e elaboração do README |
+| Bruna Kaori Takuti | Implementação de `Header.jsx`, `ListaPost.jsx`, `PostCard.jsx`, `App.css` e `index.css` |
+| Igor Rocha Cantieri | Implementação das demais partes da aplicação e integração dos recursos desenvolvidos pela equipe |
+
   
 ### Integrantes
 | Nome                              | Foto                                                                 | GitHub                                      |
