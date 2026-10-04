@@ -35,7 +35,6 @@ function App(){
 
   return(
     <div className="app-shell">
-    <>
       <Header/>
 
       <FormPost mostrarForm={mostrarForm} setMostrarForm={setMostrarForm} setPosts={setPosts}/>
