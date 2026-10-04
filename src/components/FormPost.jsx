@@ -46,23 +46,23 @@ function FormPost({mostrarForm, setMostrarForm, setPosts}){
     }
 
     return(
-        <div className="container">
+        <div className="composer-wrap">
 
-            <button className="btn btn-light border w-100 text-start p-3 rounded" type="button" onClick={() => setMostrarForm(true)}>Publique uma ideia
+            <button className="composer-button" type="button" onClick={() => setMostrarForm(true)}>Publique uma ideia
             </button>
 
             {mostrarForm === true && 
 
-                <form className="mt-3 mb-3" onSubmit={publicarPost}>{/*Quando o submit for executado um objeto com os dados do evento é passado para publicarPost*/}
+                <form className="composer-form" onSubmit={publicarPost}>{/*Quando o submit for executado um objeto com os dados do evento é passado para publicarPost*/}
 
-                    <label className="form-label">Título</label>
-                    <input className="form-control" type="text" ref={tituloRef} onChange={(e) => setTitulo(e.target.value)} value={titulo}/>
+                    <label className="form-label field-label">Título</label>
+                    <input className="form-control composer-input" type="text" ref={tituloRef} onChange={(e) => setTitulo(e.target.value)} value={titulo}/>
 
-                    <label className="form-label mt-3">Conteúdo</label>
-                    <textarea className="form-control" onChange={(e) => setConteudo(e.target.value)} value={conteudo}></textarea>
+                    <label className="form-label field-label mt-3">Conteúdo</label>
+                    <textarea className="form-control composer-input" onChange={(e) => setConteudo(e.target.value)} value={conteudo}></textarea>
 
-                    <button  type="submit" className="btn btn-primary mt-3 me-2">Publicar</button>
-                    <button type="button" className="btn btn-secondary mt-3" onClick={() => setMostrarForm(false)}>Cancelar</button>
+                    <button type="submit" className="btn btn-primary mt-3 me-2 publish-button">Publicar</button>
+                    <button type="button" className="btn btn-secondary mt-3 cancel-button" onClick={() => setMostrarForm(false)}>Cancelar</button>
 
                 </form>
             
