@@ -34,13 +34,14 @@ function App(){
   },[])
 
   return(
+    <div className="app-shell">
     <>
       <Header/>
 
       <FormPost mostrarForm={mostrarForm} setMostrarForm={setMostrarForm} setPosts={setPosts}/>
 
       {carregando === true && 
-        <p>Carregando publicações</p>
+        <p className="app-message">Carregando publicações...</p>
       }
 
       {erro !== '' && <p className="text-danger">{erro}</p>}
