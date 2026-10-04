@@ -44,7 +44,7 @@ function App(){
         <p className="app-message">Carregando publicações...</p>
       }
 
-      {erro !== '' && <p className="text-danger">{erro}</p>}
+      {erro !== '' && <p className="app-message error-message">{erro}</p>}
 
       {mostrarForm === false && carregando === false && erro === '' &&
         <ListaPost posts={posts}/>//Lista de posts só sera renderizada se o formulario estiver fechado
