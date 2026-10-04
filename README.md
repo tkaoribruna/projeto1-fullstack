@@ -100,15 +100,15 @@ npm run preview
 |---|---|
 | Daniel Durante Francisco Dias | Implementação de `src/services/api.js`, `src/services/postsService.js` e elaboração do README |
 | Bruna Kaori Takuti | Implementação de `Header.jsx`, `ListaPost.jsx`, `PostCard.jsx`, `App.css` e `index.css` |
-| Igor Rocha Cantieri | | Igor Rocha Cantieri | Implementação de `src/App.jsx`, `src/components/FormPost.jsx` e `src/main.jsx`, além da integração dos componentes e do fluxo de publicação |
+| Igor Rocha Cantieri | Implementação de `src/App.jsx`, `src/components/FormPost.jsx` e `src/main.jsx`, além da integração dos componentes e do fluxo de publicação
 
 ## Ferramentas de apoio
 
-Foram consultadas documentações oficiais do React, Vite, Axios,
+Foram consultadas as documentações oficiais do React, Vite, Axios,
 Bootstrap, Lucide React e DummyJSON.
 
-Também foi utilizado um assistente de IA nativo do VSCODE para auxiliar na revisão
-do código e da documentação. As sugestões foram analisadas,
+Também foi utilizado um assistente de IA integrado ao VS Code para auxiliar
+na revisão do código e da documentação. As sugestões foram analisadas,
 adaptadas e validadas pela equipe.
 
   
