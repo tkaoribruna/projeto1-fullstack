@@ -102,6 +102,15 @@ npm run preview
 | Bruna Kaori Takuti | Implementação de `Header.jsx`, `ListaPost.jsx`, `PostCard.jsx`, `App.css` e `index.css` |
 | Igor Rocha Cantieri | Implementação das demais partes da aplicação e integração dos recursos desenvolvidos pela equipe |
 
+## Ferramentas de apoio
+
+Foram consultadas documentações oficiais do React, Vite, Axios,
+Bootstrap, Lucide React e DummyJSON.
+
+Também foi utilizado um assistente de IA nativo do VSCODE para auxiliar na revisão
+do código e da documentação. As sugestões foram analisadas,
+adaptadas e validadas pela equipe.
+
   
 ### Integrantes
 | Nome                              | Foto                                                                 | GitHub                                      |
